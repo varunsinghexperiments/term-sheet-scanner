@@ -86,7 +86,7 @@ STEP 2: If it IS a term sheet, respond ONLY with valid JSON in this exact format
 Criticality must be EXACTLY one of: Non-negotiable, Can live with it, Good to have
 Sort order: Non-negotiable first, then Can live with it, then Good to have.
 Within each tier, sort by likely lender resistance — easiest concessions first.
-Be specific to the NBFC's profile. Avoid generic observations."""
+Be specific to the NBFC's profile. Avoid generic observations.Keep each field concise — maximum 60 words per field. Prioritise the most important clauses. If there are more than 12 clauses, analyse only the 12 most significant ones."""
 
 # ─── Text Extraction Functions ────────────────────────────────────────────────
 def extract_from_pdf(file_bytes):
